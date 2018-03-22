@@ -1,0 +1,8 @@
+.DS_store
+.idea
+oauth2/*.json
+output/
+vendor/github.com
+vendor/gopkg.in
+vendor/golang.org
+vendor/cloud.google.com/

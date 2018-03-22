@@ -1,0 +1,22 @@
+host: 0.0.0.0
+port: 8080
+# the prefix of the path
+prefix: ""
+db:
+  host: localhost
+  port: 3306
+  user: root
+  password: root
+  database: blog
+oauth2Google:
+  redirect: http://127.0.0.1:8080
+  credFile: ./google.json
+  scopes:
+    - https://www.googleapis.com/auth/userinfo.email
+    - https://accounts.google.com/o/oauth2/token
+  secret: c6GgUDCCwL7PLGQIKQw0LgtB
+  scope: 406513734400-5gip73f43lgfhoocviiuni8elfaff71b.apps.googleusercontent.com
+
+
+enabled: true
+path: "/usr/local"
